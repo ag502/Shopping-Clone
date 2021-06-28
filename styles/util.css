@@ -1,3 +1,8 @@
+.page {
+    max-width: 1560px;
+    margin: auto;
+}
+
 .page-left-padding, .page-right-padding {
     padding: 0 60px 0 60px;
 }
