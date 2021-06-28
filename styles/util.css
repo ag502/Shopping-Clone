@@ -3,6 +3,10 @@
     margin: auto;
 }
 
+.normal-font {
+    font-size: 0.8rem;
+}
+
 .page-left-padding, .page-right-padding {
     padding: 0 60px 0 60px;
 }

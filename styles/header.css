@@ -1,3 +1,7 @@
+.header-container {
+    border-bottom: 1px solid #d6d0cb;
+}
+
 /* util header */
 .header-container__util-bar {
     display: flex;
@@ -11,7 +15,7 @@
 }
 
 .util-bar--right__location {
- margin-right: 20px;
+    margin-right: 20px;
 }
 
 .location-icon,
@@ -75,4 +79,34 @@
     height: 35px;
     padding: 10px;
     outline: none;
+}
+
+.main-bar__nav-container {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    text-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.nav__item:hover {
+    color: #d52975;
+    border-bottom: 1px solid #d52975;
+    cursor: pointer;
+    margin-bottom:  -1px;
+}
+
+.nav__item.sale {
+    color: #d52975;
+}
+
+.nav__item.sale:hover {
+    color: #000000;
+    border-bottom: 1px solid #d52975;
+    cursor: pointer;
+    margin-bottom:  -1px;
 }
