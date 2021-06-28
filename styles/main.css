@@ -23,6 +23,8 @@
     margin-bottom: 20px;
 }
 
+/* category 왼쪽 */
+
 .category--left {
     grid-column-start: 1;
     grid-column-end: 9;
@@ -62,11 +64,26 @@
     margin-bottom: 40px;
 }
 
-
+/* 카테고리 오른쪽 */
 
 .category--right {
     grid-column-start: 9;
     grid-column-end: 13;
     height: 100px;
     background-color: aqua;
+}
+
+.category--right__content h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.category--right__content p {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.category--right__content p:hover {
+    cursor: pointer;
+    text-decoration: none;
 }
