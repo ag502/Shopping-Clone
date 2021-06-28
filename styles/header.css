@@ -1,4 +1,8 @@
 .header-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
     border-bottom: 1px solid #d6d0cb;
 }
 
@@ -8,6 +12,10 @@
     justify-content: space-between;
     align-items: center;
     height: 40px;
+}
+
+.header-container__util-bar--left {
+    width: 120px;
 }
 
 .header-container__util-bar--right {
@@ -41,13 +49,8 @@
 .main-bar__logo {
     grid-column-start: 3;
     grid-column-end: 4;
-    position: relative;
-}
-
-.main-bar__logo img {
     width: 220px;
-    height: 27px;
-    margin: auto;
+    position: relative;
 }
 
 .main-bar__search {
