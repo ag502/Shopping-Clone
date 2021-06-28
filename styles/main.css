@@ -5,8 +5,68 @@
 
 .main-container__event-banner {
     height: 70px;
+    margin-bottom: 20px;
 }
 
 .main-container__event-banner img {
     width: 100%;
+}
+
+.main-container__category {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+}
+
+.category__content {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.category--left {
+    grid-column-start: 1;
+    grid-column-end: 9;
+}
+
+.category--left--top {
+    margin-bottom: 20px;
+}
+
+.category__content span {
+    text-decoration: underline;
+}
+
+.category__content span:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.category--left--middle {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+    margin-bottom: 40px;
+}
+
+.middle--first{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.middle--second {
+    grid-column-start: 7;
+    grid-column-end: 13;
+}
+
+.category--left--bottom {
+    margin-bottom: 40px;
+}
+
+
+
+.category--right {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    height: 100px;
+    background-color: aqua;
 }
