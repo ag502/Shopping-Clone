@@ -1,0 +1,12 @@
+.main-container {
+    padding-top: 180px;
+    background-color: #faf9f7;
+}
+
+.main-container__event-banner {
+    height: 70px;
+}
+
+.main-container__event-banner img {
+    width: 100%;
+}

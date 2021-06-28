@@ -1,4 +1,8 @@
 .header-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
     border-bottom: 1px solid #d6d0cb;
 }
 
