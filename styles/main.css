@@ -87,3 +87,22 @@
     cursor: pointer;
     text-decoration: none;
 }
+
+/* 콜렉션 */
+
+.main-container__collection {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+    margin-bottom: 40px;
+}
+
+.collection--left {
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.collection--right {
+    grid-column-start: 7;
+    grid-column-end: 13;
+}
