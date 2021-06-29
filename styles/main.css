@@ -1,5 +1,6 @@
 .main-container {
-    padding-top: 180px;
+    padding: 180px 0 30px 0;
+    /*margin-bottom: 30px;*/
     background-color: #faf9f7;
 }
 
@@ -288,5 +289,30 @@
 }
 
 .read-more:hover {
+    text-decoration: none;
+}
+
+/* information */
+.main--container__info > div {
+    padding-top: 20px;
+    border-top: 1px solid #d6d0cb;
+}
+
+.info__title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.info__content {
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.info__content span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.info__content span:hover {
     text-decoration: none;
 }
