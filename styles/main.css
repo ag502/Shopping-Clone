@@ -226,3 +226,8 @@
 .slider__contents p {
     font-size: 0.9rem;
 }
+
+.main__container__event-banner--bottom {
+    height: 100px;
+    margin-bottom: 40px;
+}
