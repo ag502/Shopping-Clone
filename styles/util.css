@@ -1,0 +1,26 @@
+.page {
+    max-width: 1560px;
+    margin: auto;
+}
+
+.normal-font {
+    font-size: 0.8rem;
+}
+
+.marcellus-font {
+    font-family: Marcellus, sans-serif;
+}
+
+.page-left-padding, .page-right-padding {
+    padding: 0 60px 0 60px;
+}
+
+.normal-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
