@@ -175,7 +175,7 @@
     display: none;
     position: absolute;
     z-index: 100;
-    bottom: 9%;
+    bottom: 7.5%;
     left: 0;
     right: 0;
     text-align: center;
@@ -230,7 +230,6 @@
 }
 
 .main__container__event-banner--bottom {
-    height: 100px;
     margin-bottom: 40px;
 }
 
